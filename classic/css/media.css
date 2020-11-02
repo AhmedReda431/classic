@@ -1,0 +1,59 @@
+@media (max-width: 610px) {
+  .media {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 766.98px) {
+  .carousel-item img {
+    width: auto !important;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: #000;
+  }
+  .dropdown,
+  .dropleft,
+  .dropright,
+  .dropup {
+    z-index: 5;
+  }
+  .projects .gallery .firstOne .all {
+    width: 29%;
+  }
+  .info h1 {
+    font-size: 22px;
+  }
+  .row {
+    display: block !important;
+  }
+  .team .row .col-4 {
+    max-width: 100% !important;
+    padding-bottom: 25px;
+  }
+  .clients .clients-holder h2{
+      line-height: 1.6 !important;
+  }
+  .projects ul li{
+      margin: 5px 0;
+  }
+}
+
+@media (max-width: 992px) {
+  header .navbar-nav {
+    background-color: #fff;
+    padding: 5px;
+    z-index: 5;
+    color: #000;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    color: #000;
+  }
+
+  header .navbar-collapse {
+    z-index: 6;
+  }
+}
+@media (min-width: 767px) and (max-width: 1200px) {
+  header .myCarousel .info h1 {
+    font-size: 19px;
+  }
+}

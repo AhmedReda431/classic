@@ -1,0 +1,234 @@
+
+header .myNavbar{
+    position: absolute;
+    background: transparent  ;
+    padding: 5px 50px;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header .myNavbar .navbar-brand,.navbar-expand-lg .navbar-nav .nav-link{
+    color: #fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    margin-right: 15px;
+    padding-right: 0;
+    padding-left: 0;
+}
+header .myCarousel{
+    position: relative;
+}
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+header .myCarousel .carousel-item{
+    position: relative;
+
+}
+header .myCarousel .info{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-65%);
+    text-align: center;
+    color: #fff;
+}
+header .myCarousel .info button{
+    background: transparent;
+    border: 2px solid #1BBC9D;
+    color: #fff;
+}
+header .myCarousel .info span{
+    color: #1BBC9D;
+}
+header .carousel-indicators li{
+    height: 5px;
+}
+header .nav-link{
+    transition: all .2s ease-in-out;
+    
+}
+header .nav-link.active{
+    border-bottom: 2px solid #1BBC9D;
+}
+header .nav-link:hover{
+    border-bottom: 2px solid #1BBC9D;
+}
+
+header .myNavbar .navbar-brand{
+    color: #1BBC9D;
+}
+/*********************************************/
+.services{
+    padding: 3% 0;
+
+}
+.section-header{
+    color: #1bbc9d;
+    margin-bottom: 35px;
+    position: relative;
+}
+.section-header::after{
+    content: "";
+    position: absolute;
+    left: 3px;
+    bottom: -8px;
+    background-color: #1BBC9D;
+    width: 57px;
+    height: 2px;
+}
+.services .media i{
+    color: #1BBC9D;
+}
+
+
+.services .container {
+    border-bottom: 2px solid #1bbc9d;
+    padding-bottom: 5%;
+}
+/**************************************/
+.team{
+    padding-bottom: 3%;
+}
+
+/**************************************/
+.clients{
+    background: url("assets/3.png") no-repeat fixed center;
+    background-size: cover;
+    color: #fff;
+}
+.clients .clients-holder{
+    padding: 4% 0;
+    background-color: rgba(2, 2, 2, 0.8);
+    height: 100%;
+    width: 100%;
+}
+.clients .our{
+    position: relative;
+}
+
+.our::after{
+    position: absolute;
+    content: "";
+    width: 55px;
+    height: 4px;
+    left: 7px;
+    bottom: -8px;
+    background-color: #1bbc9d;
+}
+
+.clients .clients-holder h3 .client{
+    color: #1bbc9d;
+}
+/***************************************************/
+
+
+/******************************************************/
+.projects{
+    padding: 4% 0;
+}
+.projects ul li{
+    display: inline-block;
+    padding: 2px 10px;
+    border: 1px solid #ccc;
+    color: #333;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.projects ul li.active{
+    background-color: #1BBC9D;
+    color: #fff;
+}
+.projects .gallery {
+    margin-top: 4%;
+}
+.projects .gallery .all{
+    position: relative;
+
+}
+.projects .myGallery .gallery .myshadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(32, 197, 164, 0.521);
+    color: #fff;
+    z-index: 55;
+    display: none;
+    transition: all 1s ease-in-out;
+}
+/* .projects .myGallery .gallery .all:hover .projects .myGallery .gallery .myshadow{
+    display:inline-block;
+} */
+.projects .gallery img{
+    height: 300px;
+}
+
+.projects .gallery .view-more{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid #fff;
+    padding: 5px 12px;
+    background: transparent;
+    color: #fff;;
+}
+
+.projects .gallery .likes{
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    font-size: 25px;
+}
+
+.projects .gallery .firstOne .all{
+    width: 31%;
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+/**********************************************************/
+.ourMap{
+    background-color: #232323;
+    color: #fff;
+    padding: 3% 0;
+}
+
+.ourMap h2{
+    margin-bottom: 25px;
+}
+.ourMap .social ul li{
+    border: 1px solid;
+    padding: 4px 14px;
+}
+
+
+.ourMap .courses ul li{
+    display: inline-block;
+    border: 1px solid;
+    padding: 2px 5px;
+    font-size: 20px;
+    text-align: center;
+}
+.ourMap ul li img{
+    border-radius: 50%;
+}
+
+.ourMap .blog ul li{
+    border-bottom: 1px solid ;
+    margin-bottom: 25px;
+    padding-bottom: 5px;
+}
+
+.ourMap .copy span{
+    color: #1BBC9D;
+}
